@@ -1,27 +1,56 @@
-# React + TypeScript + Vite
+# Fruta Feira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafio:
+Desenvolver um app, tipo e-commerce, utilizando React.JS para vender maçã, pêra, banana, abacaxi e manga.
+- O cliente deve realizar o login (pode ser fixo)
+- O cliente poderá pesquisar pelo produto e escolher aquele que quer comprar;
+- Deve existir um carrinho de compras onde será listado os produtos que o cliente selecionou;
+- É necessário implementar testes unitários;
+- Deve possuir um botão checkout (gerar um pdf como se fosse um comprovante).
 
-Currently, two official plugins are available:
+## Ferramentas utilizadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- react + vite + typescript
+- formik
+- jest
+- pdfmake
+- react-responsive-modal
+- react-toastify
+- styled-components
+- yup
+- zustand
 
-## Expanding the ESLint configuration
+## Iniciar Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```sh
+yarn install ou npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Run dev server:
+
+```sh
+yarn dev ou npm run dev
+```
+
+Run test
+```sh
+yarn test ou npm run test
+```
+
+```sh
+para acessar a plataforma entre com:
+{ 
+  "email": gustavo@gmail.com,
+  "senha": 123 
+}
+```
+
+# Figma
+
+UI do projeto no FIGMA: <a href="https://www.figma.com/file/CXneJFs5isZ2aUSQRiyeU2/FrutaFeira?type=design&node-id=0-1&mode=design" target="_blank">Clique aqui para acessar o FIGMA</a>
+
+# Deploy
+
+Clique e acesse: <a href="https://frutafeira.netlify.app/" target="_blank">Deploy FrutaFeira</a>
+
+
